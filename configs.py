@@ -3,10 +3,10 @@
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "LazyRose_fileStoreBOT")
+	API_ID = int(os.environ.get("23990433"))
+	API_HASH = os.environ.get("e6c4b6ee1933711bc4da9d7d17e1eb20")
+	BOT_TOKEN = os.environ.get("5977289238:AAGgHF_dM37XF-87o4jPX-MMx5Y5JSRNbc0")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_ToLinks_Bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001772120203"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5965340120"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
